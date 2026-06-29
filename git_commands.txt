@@ -1,0 +1,5 @@
+git init: (to initialize empty git repository)
+git status: (to check all the activity going on)
+git add (filename): (to add a particular untracked file in staging)
+git add . :  (to add all untracked files in staging all in one go by git add .)
+git restore --staged (filename): is for undoing an accidental git add for any file 
