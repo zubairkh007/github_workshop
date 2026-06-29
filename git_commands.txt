@@ -7,4 +7,9 @@ git rm --cached (filename): (to convert staged file untracked again for any spec
 git log: The git log command displays the commit history of your current branch of Git repository
 git reset: (to convert all staged file again untracked in one go)
 git commit -m (message)  (is for tracking the particular file and -m flag if for message which is mandatory)
-git remote add origin: (add url here given by github to add origin)
+git remote add origin: (add url here given by github to add origin) 
+git remote set-url origin: (add token to the url to make push on github)
+git remote -v: to check the status ot url
+git push origin master: git push sends your local commits to a remote repository (like GitHub)
+git pull origin master: git pull fetches updates from the remote repository and merges them into your local
+git log --oneline: command conditionally condenses your Git commit history into a highly readable, single-line format 
