@@ -13,4 +13,4 @@ git remote -v: to check the status ot url
 git push origin master: git push sends your local commits to a remote repository (like GitHub)
 git pull origin master: git pull fetches updates from the remote repository and merges them into your local
 git log: The git log command displays the commit history of your current branch of Git repository
-git log --oneline: command conditionally condenses your Git commit history into a highly readable, single-line format 
+git log --oneline: command conditionally condenses your Git commit history into a highly readable, single-line format
