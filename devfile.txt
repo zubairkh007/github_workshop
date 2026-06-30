@@ -1,1 +1,2 @@
 hey zubair this is your devfile created in dev branch
+i edit this line in dev branch to see the merge conflict
