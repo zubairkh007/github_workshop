@@ -4,7 +4,14 @@ git add (filename): (to add a particular untracked file in staging)
 git add . :  (to add all untracked files in staging all in one go by git add .)
 git restore --staged (filename): is for undoing an accidental git add for any file
 git rm --cached (filename): (to convert staged file untracked again for any specific file)
-git log: The git log command displays the commit history of your current branch of Git repository
+git commit --amend: used to modify the most recent commit in your Git repository. It allows you to fix typos in the commit message
 git reset: (to convert all staged file again untracked in one go)
 git commit -m (message)  (is for tracking the particular file and -m flag if for message which is mandatory)
-git remote add origin: (add url here given by github to add origin)
+git remote add origin: (add url here given by github to add origin) 
+git remote set-url origin: (add token to the url to make push on github)
+git remote -v: to check the status ot url
+git push origin master: git push sends your local commits to a remote repository (like GitHub)
+git pull origin master: git pull fetches updates from the remote repository and merges them into your local
+git log: The git log command displays the commit history of your current branch of Git repository
+git log --oneline: command conditionally condenses your Git commit history into a highly readable, single-line format 
+git rest --soft HEAD~1: To make your last commit undone, and your changing will ne sitting back in staging area 
