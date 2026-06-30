@@ -1,1 +1,2 @@
 hey zubair this is your devfile created in dev branch
+I CREATED this commit on master branch to see merge conflict 
